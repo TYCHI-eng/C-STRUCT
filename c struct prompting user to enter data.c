@@ -9,15 +9,15 @@ struct Book{
  char ISBN[13];
  float Price;
    
-}Book;
+}Book1,Book2;
 
 int main(){
 printf("Enter Title:");
-scanf("%s\n",&Book.Title);
+scanf("%s\n",Book.Title);
 printf("Title :%s\n",Book.Title);
 
 printf("Enter Author:");
-scanf("%s\n",&Book.Author);
+scanf("%s\n",Book.Author);
 printf("Author:%s\n",Book.Author);
 
 printf("Enter Publication Year:");
@@ -25,7 +25,7 @@ scanf("%d\n",&Book.PublicationYear);
 printf("PublicationYear:%d\n",Book.PublicationYear);
 
 printf("Enter ISBN:");
-scanf("%s\n",&Book.ISBN);
+scanf("%s\n",Book.ISBN);
 printf("ISBN: %s\n",Book.ISBN);
 
 printf("Enter Price:");
